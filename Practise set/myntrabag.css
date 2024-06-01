@@ -1,0 +1,16 @@
+#btn-1{
+    background-color: rgb(96, 172, 109);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+
+}
+#btn-2{
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 5px 35px;
+    text-transform: uppercase;
+
+}
