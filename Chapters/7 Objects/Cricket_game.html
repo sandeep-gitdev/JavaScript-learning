@@ -38,6 +38,9 @@
           win: 0,
           lost: 0,
           tie: 0,
+          displayScore: function(){
+            return `No of matches won:${score.win}, Lost:${score.lost}, Tie:${score.tie}`;
+          }
         };
         function genrateComputerChoice() {
             // will genrate random number between 0 and 3
@@ -94,7 +97,8 @@
             // console.log(score);
             alert(`You have chosen ${userMove} Computer choice is ${computerMove} 
                    ${result}
-                   won:${score.win}, Lost:${score.lost}, Tie:${score.tie}`);
+                   
+                   ${score.displayScore()}`);
 
         }
 
