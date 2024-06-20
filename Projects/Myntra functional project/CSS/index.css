@@ -250,9 +250,9 @@ header{
     font-weight: 700;
     cursor: pointer;
 }
-.action_container {
+  .action-container {
     text-decoration: none;
 }
-a.action_container:link {
+a.action-container:link {
     color:black;
 }
